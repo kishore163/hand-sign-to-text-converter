@@ -1,3 +1,10 @@
+import keras
+
+from keras.layers import Conv2D, MaxPooling2D
+from keras.layers import Conv2D, Dense, Dropout, Flatten
+from keras.layers import Flatten, Dense
+from keras.models import Sequential
+
 def create_model():
     
     model = Sequential()
@@ -32,7 +39,4 @@ def fit_model():
     model_hist = model.fit(X_train, Y_train, batch_size = 64, epochs = 5, validation_split = 0.1)
     return model_hist 
  
-
-model = create_model()
-curr_model_hist = fit_model()
 
