@@ -7,4 +7,7 @@ The images are divided into 29 classes where 26 classes are the alphabets of eng
 
 ### Preprocessing
 
+The images have been resized,scaled and one hot encoding is applied.
+Some EDA is also performed to understand the images we are working with
+
 
