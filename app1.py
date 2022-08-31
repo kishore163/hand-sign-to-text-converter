@@ -53,6 +53,14 @@ if selected=='Upload':
     prediction=model.predict(img_arr).argmax(axis=-1)[0]
     print(prediction)
     if count==100:
+      if pred=='space':
+        res+=' '
+        continue
+      if pred=='del':
+        res=res[:-1]
+        continue
+      if pred=='nothing':
+        continue
       res+=d[prediction]
       obj=TextBlob(res)
       obj.correct()
