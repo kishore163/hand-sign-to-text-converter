@@ -26,11 +26,11 @@ CNN model with variety of layers were tried and the best suited one was a stacke
 
 ## CHALLENGES FACED
 The main challenges were the errors which I came across while training the model and during the developing phase. 
-Thanks to stackoverflow,google,youtube and some documentations which helped me understand and rectify the errors. Rectifying Some small errors such as passing the image without resizing to the model which resulted in wrong output although seems silly now were TimeConsuming.Adding features to the application were also a bit challenging and I had to play with some of the variables to get things at the right place.
+Thanks to stackoverflow,google,youtube and some documentations which helped me understand and rectify the errors. Rectifying Some small errors such as passing the image without resizing to the model which resulted in wrong output although seems silly now were TimeConsuming.Adding features to the application was also a bit challenging and I had to play with some of the variables to get things at the right place.
 
 ## Learnings
 
 -> IN depth knowledge of working with images <br />
 -> best way to deal with errors <br />
 -> new concepts of machine learning and computer vision <br />
--> integrating the model to the application <br />
+-> integrating the model with the application <br />
