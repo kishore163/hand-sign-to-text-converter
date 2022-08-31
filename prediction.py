@@ -42,18 +42,18 @@ while True:
     img_arr = np.asarray(img_file).reshape((-1, 64, 64, 3))
     cv2.imshow('crop_img',imgCrop)
     pred=model.predict(img_arr).argmax(axis=-1)[0]
-    if pred=='space':
-      res+=' '
+    if count==100:
+     if pred=='space':
+        res+=' '
         continue
      if pred=='del':
-      res=res[:-1]
+        res=res[:-1]
         continue
      if pred=='nothing':
         continue
-    if count==100:
-        res+=d[pred]
-        count=0
-        print(res)
+      res+=d[pred]
+      count=0
+      print(res)
     cv2.imshow('webcam',img)    
     count+=1
     if cv2.waitKey(1) == ord('q'):
