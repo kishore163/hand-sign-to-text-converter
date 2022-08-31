@@ -30,7 +30,7 @@ Thanks to stackoverflow,google,youtube and some documentations which helped me u
 
 ## Learnings
 
--> IN depth knowledge of working with images
--> best way to deal with errors
--> new concepts of machine learning and computer vision
--> integrating the model to the application
+-> IN depth knowledge of working with images <br />
+-> best way to deal with errors <br />
+-> new concepts of machine learning and computer vision <br />
+-> integrating the model to the application <br />
