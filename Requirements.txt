@@ -6,3 +6,5 @@ tensorflow
 open-cv
 matplotlib
 pandas
+gtts
+textBlob
