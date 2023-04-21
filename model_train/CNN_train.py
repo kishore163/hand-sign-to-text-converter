@@ -35,7 +35,7 @@ def create_model():
     return model
 
 def fit_model():
-    model_hist = model.fit(X_train, Y_train, batch_size = 64, epochs = 5, validation_split = 0.1)
+    model_hist = model.fit(X_train, Y_train, batch_size = 64, epochs = 50, validation_split = 0.1)
     return model_hist 
  
 
