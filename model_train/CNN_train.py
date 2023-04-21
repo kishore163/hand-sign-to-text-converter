@@ -17,6 +17,11 @@ def create_model():
     model.add(MaxPool2D(pool_size = [3,3]))
     
     model.add(Conv2D(128, kernel_size = [3,3], padding = 'same', activation = 'relu'))
+    model.add(MaxPool2D(pool_size = [3,3]))
+        
+    model.add(Conv2D(256, kernel_size = [3,3], padding = 'same', activation = 'relu'))
+    model.add(MaxPool2D(pool_size = [3,3]))
+    
     model.add(Conv2D(256, kernel_size = [3,3], padding = 'same', activation = 'relu'))
     model.add(MaxPool2D(pool_size = [3,3]))
     
